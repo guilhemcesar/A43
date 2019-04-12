@@ -12,7 +12,7 @@ public class Compteur {
         this.value++;
     }
 
-    int getValue(){
+    public int getValue(){
         return value;
     }
 }

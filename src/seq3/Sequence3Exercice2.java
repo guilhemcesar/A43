@@ -8,10 +8,14 @@ public class Sequence3Exercice2 {
 
         Compteur[] tableauDeCompteurs = new Compteur[100];
 
-        for( int i = 0; i < 100; i++){
-            for(int j = 0; j < i; j++){
-                tableauDeCompteurs.up();
+        for( int i = 0; i < 100; i++) {
+            for (int j = 0; j < i; j++) {
+                tableauDeCompteurs[i].up();
             }
+        }
+
+        for( int i = 0; i < 100; i++){
+            System.out.println(tableauDeCompteurs[i].getValue());
         }
     }
 }
