@@ -8,7 +8,7 @@ public class Compteur {
         this.value = 0;
     }
 
-    void up(){
+    public void up(){
         this.value++;
     }
 
