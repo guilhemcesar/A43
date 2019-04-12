@@ -1,4 +1,4 @@
-package com.cesar.a43.compteur;
+package com.cesar.a43.seq2compteur;
 
 public class Compteur {
 
