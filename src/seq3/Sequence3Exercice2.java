@@ -6,16 +6,21 @@ public class Sequence3Exercice2 {
 
     public static void main(String[] args) {
 
-        Compteur[] tableauDeCompteurs = new Compteur[100];
+        Compteur tableauDeCompteurs[] = new Compteur[100];
 
-        for( int i = 0; i < 100; i++) {
-            for (int j = 0; j < i; j++) {
+
+
+        int i, j;
+        for(i = 0; i < 100; i++){
+            for(j = 0; j < i; j++){
                 tableauDeCompteurs[i].up();
             }
         }
 
-        for( int i = 0; i < 100; i++){
-            System.out.println(tableauDeCompteurs[i].getValue());
+
+        int sum = 0;
+        for(i = 0; i < 100; i++){
+            sum += tableauDeCompteurs[i].getValue();
         }
     }
 }

@@ -2,9 +2,9 @@ package com.cesar.a43.seq2compteur;
 
 public class Compteur {
 
-    int value;
+    private int value;
 
-    void raz(){
+    public void raz(){
         this.value = 0;
     }
 
