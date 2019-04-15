@@ -1,7 +1,5 @@
 package seq3.Chronometre;
 
-import java.util.Date;
-
 public class Main {
 
     public static void delay(int ms) {

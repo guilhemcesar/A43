@@ -1,6 +1,6 @@
 package seq3.Chronometre;
 
-public class ChronoNoParam extends Chronometre{
+public class ChronoNoParam extends Chronometre {
 
     long lapTime[] = new long[100];
     int i = 1;
